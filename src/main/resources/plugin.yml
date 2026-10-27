@@ -1,0 +1,13 @@
+name: DangBoard
+version: 1.0.0
+main: my.dangboard.DangBoard
+api-version: "1.20"
+softdepend: [Vault, PlaceholderAPI, Essentials]
+commands:
+  shards:
+    description: Semak atau urus shard
+    usage: /shards [give|take|set] <pemain> <jumlah>
+permissions:
+  dang.shards:
+    description: Urus shard pemain
+    default: op
